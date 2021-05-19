@@ -1,0 +1,82 @@
+.homepage {
+  min-height: 1500px;
+}
+.session1 {
+  position: relative;
+
+}
+.card-form-rent {
+  height: 478px;
+  width: 380px;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  border-radius: 5px;
+}
+.section2 {
+  /* height: 1000px;
+  width: 100%; */
+}
+.paner {
+  background: url("https://vj-prod-website-cms.s3.ap-southeast-1.amazonaws.com/topnen-1610536365157.png")
+    center top / cover no-repeat;
+  height: 600px;
+  width: 100%;
+}
+/* renter-form */
+.card-form-rent-title{
+  display: flex;
+  justify-content: center;
+}
+.card-form-rent-title h2{
+color: #fff;
+margin-top: 20px;
+margin-bottom: -10px;
+}
+.card-body-form{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.form-rent{
+  width: 340px;
+  margin: auto;
+}
+.form-rent-items{
+  display: flex;
+  justify-content: space-between;
+
+}
+.form-rent-btn {
+  margin: auto;
+  align-content: center;
+  width: 340px;
+  background-color:red;
+  color: #fff;
+  font-size: large;
+  font-weight: bold;
+}
+.form-rent-btn:hover {
+  background-color:rgba(15, 214, 31, 0.9) ;
+}
+.form-rent-btn:focus {
+  background-color:rgba(15, 214, 31, 0.9) ;
+}
+.type-radio-body{
+  display: flex;
+  justify-content: space-between;
+}
+.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled) {
+  z-index: 1;
+  color: #fff;
+  background:rgba(255, 0, 0, 0.9) ;
+  border-color: #1890ff;
+  border-width: 2px;
+}
+.type-radio{
+  width: 160px;
+  /* align-content: center; */
+}
+.type-radio img{
+width: 25px;
+height: 25px;
+margin-right: 10px;
+}

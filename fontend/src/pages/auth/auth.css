@@ -1,0 +1,231 @@
+#components-form-demo-normal-login .login-form {
+    max-width: 300px;
+  }
+  #components-form-demo-normal-login .login-form-forgot {
+    float: right;
+  }
+  #components-form-demo-normal-login .ant-col-rtl .login-form-forgot {
+    float: left;
+  }
+  #components-form-demo-normal-login .login-form-button {
+    width: 100%;
+  }
+  .loginpage {
+    background-image: url("http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    min-height: 550px;
+  }
+  .card {
+    height: 400px;
+    margin-top: 50px;
+    margin-bottom: auto;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+  }
+  .card-register {
+    height: 480px;
+    margin-top: 50px;
+    margin-bottom: auto;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+  }
+  .date-gender {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+  }
+  .card-body {
+    padding-top: 20px;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+  }
+  .social_icon span {
+    font-size: 60px;
+    margin-left: 10px;
+    color: #ffc312;
+  }
+  .formlogin {
+    width: 350px;
+    margin: auto;
+  }
+  .input-group {
+    width: 350px;
+    justify-content: center;
+    display: flex;
+  }
+  .input-group input {
+    height: 40px;
+    font-size: 15px;
+  }
+  .social_icon span:hover {
+    color: white;
+    cursor: pointer;
+  }
+  .form-icon {
+    background-color: #ffc312;
+    font-size: 20px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0;
+  }
+  .card-header {
+    /* position: relative; */
+    margin-bottom: -20px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+  }
+  
+  .social_icon {
+    /* position: absolute; */
+    right: 500px;
+    top: 70px;
+    z-index: 1000;
+  }
+  .card-footer {
+    margin-top: 50px;
+  }
+  .signup {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+  }
+  .forgot {
+    float: left;
+    margin-top: 5px;
+    font-size: 16px;
+    color: aliceblue;
+
+  }
+  
+  input:focus {
+    outline: 0 0 0 0 !important;
+    box-shadow: 0 0 0 0 !important;
+  }
+  .login_btn {
+    color: black;
+    background-color: #ffc312;
+    /* width: 100px; */
+    height: auto;
+    float: right;
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+  }
+  
+  .login_btn:hover {
+    color: black;
+    background-color: white;
+  }
+  
+  .links {
+    color: white;
+  }
+  
+  .links a {
+    margin-left: 4px;
+  }
+  /* .card-header a{
+    padding: 20px;
+    font-size: 20px;
+    color:#ffc312;
+  } */
+  /* neon */
+  .card-header a{
+      position: relative;
+      display: inline-block;
+      text-decoration: none;
+      overflow: hidden;
+    padding: 20px;
+    /* padding-left: 130px;
+    padding-right: 130px;
+    padding-top: 20px;
+    padding-bottom: 20px; */
+    font-size: 23px;
+    color:#ffc312;
+    font-weight: bold;
+    -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+  }
+  .card-header a{
+    -webkit-animation: neon3 1.5s ease-in-out infinite alternate;
+    -moz-animation: neon3 1.5s ease-in-out infinite alternate;
+    animation: neon3 1.5s ease-in-out infinite alternate;
+  }
+  .login_btn a span{
+      
+   position: absolute;
+   /* z-index: 0; */
+   display: block;
+  }
+  /* span1 */
+  .login_btn a span:nth-child(1){
+    top:0;
+    left: -100%;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(90deg,transparent,#ffc312);
+   }
+   .login_btn a:hover span:nth-child(1){
+    left: 100%;
+    transition: 1s;
+   }
+   /* span3 */
+   .login_btn a span:nth-child(3){
+    bottom:0;
+    right: -100%;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(270deg,transparent,#ffc312);
+   }
+   .login_btn a:hover span:nth-child(3){
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+   }
+   /* span2 */
+   .login_btn a span:nth-child(2){
+    top:-100%;
+    right: 0%;
+    width: 3px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#ffc312);
+   }
+   .login_btn a:hover span:nth-child(2){
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+   }
+   /* span4 */
+   .login_btn a span:nth-child(4){
+    bottom:-100%;
+    left: 0%;
+    width: 3px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#ffc312);
+   }
+   .login_btn a:hover span:nth-child(4){
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+   }
+
+
+  @keyframes neon3 {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FFDD1B, 0 0 70px #FFDD1B, 0 0 80px #FFDD1B, 0 0 100px #FFDD1B, 0 0 150px #FFDD1B;
+    }
+    to {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FFDD1B, 0 0 35px #FFDD1B, 0 0 40px #FFDD1B, 0 0 50px #FFDD1B, 0 0 75px #FFDD1B;
+    }
+  }
+  

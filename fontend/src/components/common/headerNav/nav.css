@@ -1,0 +1,43 @@
+.logo {
+  float: left;
+  width: 120px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  background: rgba(107, 2, 243, 0.2);
+}
+.site-layout .site-layout-background {
+  background: #fff;
+}
+.header {
+  height: 64px;
+}
+.menu {
+  display: flex;
+  height: 64px;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+}
+.menu {
+  border: 0;
+  /* background: red !important; */
+}
+.search-input {
+  width: 500px;
+  /* font-size: 18px; */
+}
+/* responsive */
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color:#fff;
+  /* color:red; */
+}
+.header .ant-menu{
+  background: #fff;
+  font-size: 18px;
+
+}
+.header .ant-badge-count{
+  top:5px;
+  /* right: -5px;  */
+  /* left: 10px; */
+}
